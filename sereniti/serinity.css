@@ -1,0 +1,301 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./1659759745_1-kartinkin-net-p-fon-dlya-diskorda-servera-krasivo-1.png');
+    color: #333; 
+    margin: 0;
+    overflow-x: hidden;
+    
+    
+}
+
+/* header {
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+} */
+
+/* .container {
+    width: 80%;
+    margin: 20px auto;
+}  */
+
+button {
+    position: absolute;
+    background: linear-gradient(to right, #3498db, #002a46); /* Градієнт в синіх тонах */
+    /* background-color: #183f58; блакитний колір для кнопок */
+    color: #fff;
+    padding: 40px 45px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding-bottom: 20px;
+    margin-top: 670px; /* Задає відступ зверху */
+    margin-left: 797px; /* Задає відступ зліва */
+    font-size: 16px; /* Розмір шрифту */
+    font-weight: bold; /* Товщина шрифту */
+    text-transform: uppercase; /* Перетворення тексту у верхній регістр */
+    letter-spacing: 1px; /* Міжсимвольний інтервал */
+    transition: background-color 0.3s ease;
+    display: flex; /* Встановлюємо flex контейнер */
+    align-items: center; /* Центруємо вертикально */
+    justify-content: center; /* Центруємо горизонтально */
+}
+button:hover {
+    background: linear-gradient(to right, rgb(14, 14, 137), rgb(99, 8, 111)); /* Градієнт в синіх тонах */
+    transform: scale(1.2); /* Збільшує розмір кнопки при наведенні */
+    border-radius: 25px;
+    font-size: 15px; /* Розмір шрифту */
+
+}
+/* Додайте інші стилі за необхідності */
+/* Додаємо градієнтні рамки для body */
+body:before,
+body:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 20px; /* Ширина лівої та правої рамки */
+    height: 100%;
+}
+
+body:before {
+    left: 0; /* Рамка ліворуч */
+    background: linear-gradient(to right, rgb(18, 74, 114), #6c29b9);
+}
+
+body:after {
+    right: 0; /* Рамка праворуч */
+    background: linear-gradient(to left, rgb(16, 65, 100), #6c29b9);
+}
+
+/* Додатковий стиль для наведення */
+body:before:hover,
+body:after:hover {
+    width: 20px; /* Збільшуємо ширину рамок при наведенні */
+    transition: width 0.3s ease; /* Плавний перехід ширини при наведенні */
+}
+
+.portfolio {
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.p1{
+    margin-top: 20px;
+    margin-left: 130px;
+}
+/* .heaer{
+    position: fixed;
+    margin-left: 20px;
+    width: 1880px;
+    height: 78px;
+    background: linear-gradient(180deg, rgba(15, 106, 157, 0.80) 0%, rgba(113, 6, 122, 0.80) 97.92%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+} */
+/* .heae{
+    position: relative;
+    width: 1667px;
+    height: 35px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+} */
+.logo{
+    
+    
+    
+    margin-left: 500px;
+    margin-top: 15px;
+    /* color: white;
+    font-weight: 800;
+    font-size: 28px;
+    letter-spacing: 0.1em;
+     */
+     color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    mix-blend-mode: overlay;
+}
+
+
+
+
+.heaer{
+    margin-left: 20px;
+    position: relative;
+    width: 98%;
+    height: 80px;
+    background: linear-gradient(180deg, rgba(15, 106, 157, 0.80) 0%, rgba(113, 6, 122, 0.80) 97.92%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.heaer div, a{
+    float: left;
+}
+.opis{
+    
+    margin-top: 200px;
+    margin-left: 735px;
+    border-radius: 25px;
+}
+.text1{
+    position: absolute;
+    left: 740px;
+    top: 460px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.text-frame {
+    position: absolute;
+    /* position: relative; */
+    border: 2px solid #0c3d5e;
+    width: 539px;
+    height: 220px;
+    margin-left: 700px;
+    margin-top: 390px;
+    border-radius: 50px;
+    background-color: #ffffff3d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* .opis {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards; 
+}
+.text1 {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-out forwards; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} */
+
+@media (max-width: 768px) {
+    .heaer{
+        margin-left: 5px;
+        position: relative;
+        width: 414px;
+        height:20px;
+    }
+    .heaerdno{
+        margin-top: 730px;
+        margin-left: 0px;
+        position: absolute;
+        width: 423px;
+        height: 5px;
+        background: linear-gradient(180deg, rgba(15, 106, 157, 0.80) 0%, rgba(113, 6, 122, 0.80) 97.92%);
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .logo{
+        font-size: 20px;
+        font-weight: 800;
+        margin-left: 40px;
+        margin-top: 2px;
+    }
+    
+    body {
+        background-image: url('./завантаження.jpeg');
+        /* height: 900px;
+        width: 420px; */
+        /*  background-size: 414px 896px; */
+        background-position: center center;
+        background-attachment: fixed;
+        
+        
+    }
+    body:before,
+    body:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 5px; /* Ширина лівої та правої рамки */
+        height: 113%;
+    }
+
+    body:before {
+        /* position: relative; */
+        right:300px;
+        background: linear-gradient(to right, rgb(18, 74, 114), #6c29b9);
+    }
+
+    body:after {
+        left: 419px;
+        background: linear-gradient(to left, rgb(16, 65, 100), #6c29b9);
+    }
+
+    .text-frame {
+        /* position: fixed; */
+        /* position: absolute; */
+        /* position: relative; */
+        border: 2px solid #0c3d5e;
+        width: 332px;
+        height: 225px;
+        margin-top: 180px;
+        margin-left: 45px;
+        border-radius: 30px;
+    }
+    button {
+        position: relative;
+        background: linear-gradient(to right, #3498db, #002a46); /* Градієнт в синіх тонах */
+        /* background-color: #183f58; блакитний колір для кнопок */
+        padding: 30px 35px;
+        border-radius: 15px;
+        padding-bottom: 20px;
+        font-family: Inter;
+        font-size: 15px;
+        margin-top: 530px; /* Задає відступ зверху */
+        margin-left: 55px; /* Задає відступ зліва */
+     
+    }
+    .text1{
+        left: 49px;
+        top: 220px;
+        font-family: Inter;
+        font-size: 20px;
+    
+    }
+    button:hover {
+        background: linear-gradient(to right, rgb(14, 14, 137), rgb(99, 8, 111)); /* Градієнт в синіх тонах */
+        transform: scale(1.1); /* Збільшує розмір кнопки при наведенні */
+        border-radius: 20px;
+        font-size: 15px; /* Розмір шрифту */
+    
+    }
+    .opis{
+        position: relative;
+        margin-top: 20px;
+        margin-left: 41px;
+        border-radius: 25px;
+        width: 332px;
+        height: 135px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
